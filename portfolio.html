@@ -8,132 +8,140 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
+            rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+            integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/stile.css">
 </head>
 <body class="body">
-    <header>
-        <a class="logo" href="">
-            Web <span class="logo-dark">Studio </span>
-        </a>
-        <!--navigation-->
-        <nav class="nav">
-            <ul class="nav-list">
+    <header cl>
+        <div class="container">
+            <a class="logo" href="">
+                Web <span class="logo-dark">Studio </span>
+            </a>
+            <!--navigation-->
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li>
+                        <a class=" nav-link nav-link-active" href="./index.html">Студия</a>
+                    </li>
+                    <li>
+                        <a class="nav-link nav-active" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+    <!--contacts-->
+            <ul class="header-contacts-list">
                 <li>
-                    <a class=" nav-link nav-link-active" href="./index.html">Студия</a>
+                    <a class="header-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li>
-                    <a class="nav-link nav-active" href="./portfolio.html">Портфолио</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="">Контакты</a>
+                    <a class="header-contacts" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
-        </nav>
-<!--contacts-->
-        <ul class="header-contacts-list">
-            <li>
-                <a class="header-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li>
-                <a class="header-contacts" href="tel:+380961111111">+38 096 111 11 11</a>
-            </li>
-        </ul>
+        </div>
     </header>
     <main>
         <!-- filters -->
         <section class="filters">
+            <div class="container">
             <!-- Заголовок H1 сделан невидимым -->
-            <h1 class="filters-title">Веб-сайты Приложения Дизайн Маркетинг</h1>
-                <ul class="filters-list">
-                    <li>
-                        <button class="filters-button" type="button">
-                            Все
-                        </button>
-                    </li>
-                    <li>
-                        <button class="filters-button" type="button">
-                            Веб-сайты
-                        </button>
-                    </li>
-                    <li>
-                        <button class="filters-button" type="button">
-                            Приложения
-                        </button>
-                    </li>
-                    <li>
-                        <button class="filters-button" type="button">
-                            Дизайн
-                        </button>
-                    </li>
-                    <li>
-                        <button class="filters-button" type="button">
-                            Маркетинг
-                        </button>
-                    </li>
-                </ul>             
-                <ul class="projekt-list">
-                    <li>
-                        <a href="" class="projekt-link"></a>
-                            <img src="./image/portfolio/tehnohriak.jpg" width="370" alt="foto of people">
-                                <h2 class="projekt-titl">Технокряк</h2>
-                                    <p class="project-text">Веб-сайт</p>
-                    </li>
-                    <li>
-                        <a href="projekt-link"  ></a>
-                            <img src="./image/portfolio/poster.jpg" width="370" alt="foto men play in basketball">
-                                <h2 class="projekt-titl" >Постер New Orlean vs Golden Star</h2>
-                                    <p class="project-text">Дизайн</p>
-                    </li>
-                    <li>
-                        <a href="projekt-link" ></a>
-                            <img src="./image/portfolio/restaurant.jpg" width="370" alt="image fish ">
-                                <h2 class="projekt-titl">Ресторан Seafood</h2>
-                                    <p class="project-text">Приложение</p>
-                    </li>
-                    <li>
-                        <a href="projekt-link" ></a>
-                            <img src="./image/portfolio/headphouns.jpg" width="370" alt="headphouns">
-                                <h2 class="projekt-titl">Проект Prime</h2>
-                                    <p class="project-text">Маркетинг</p>
-                    </li>
-                    <li>
-                        <a href="projekt-link"></a>
-                            <img src="./image/portfolio/boxes.jpg" width="370" alt="two boxes">
-                                <h2 class="projekt-titl">Проект Boxes</h2>
-                                    <p class="project-text">Приложение</p>
-                    </li>
-                    <li>
-                        <a href="projekt-link"></a>
-                            <img src="./image/portfolio/monitor.jpg" width="370" alt="monitor">
-                                <h2 class="projekt-titl">Inspiration has no Borders</h2>
-                                    <p class="project-text">Веб-сайт</p>
-                    </li>
-                    <li>
-                        <a href="projekt-link"></a>
-                            <img src="./image/portfolio/magazine.jpg" width="370" alt="magazine with photos">
-                                <h2 class="projekt-titl">Издание Limited Edition</h2>
-                                    <p class="project-text">Дизайн</p>
-                    </li>
-                    <li>
-                        <a href="projekt-link"></a>
-                            <img src="./image/portfolio/lab.jpg" width="370" alt="label">
-                                <h2 class="projekt-titl">Проект LAB</h2>
-                                    <p class="project-text">Маркетинг</p>
-                    </li>
-                    <li>
-                        <a href="projekt-link"></a>
-                            <img src="./image/portfolio/laptop.jpg" width="370" alt="laptop">
-                                <h2 class="projekt-titl">Growing Business</h2>
-                                    <p class="project-text">Приложение</p>
-                    </li>
-                </ul>
+                <h1 class="filters-title">Веб-сайты Приложения Дизайн Маркетинг</h1>
+                    <ul class="filters-list">
+                        <li>
+                            <button class="filters-button" type="button">
+                                Все
+                            </button>
+                        </li>
+                        <li>
+                            <button class="filters-button" type="button">
+                                Веб-сайты
+                            </button>
+                        </li>
+                        <li>
+                            <button class="filters-button" type="button">
+                                Приложения
+                            </button>
+                        </li>
+                        <li>
+                            <button class="filters-button" type="button">
+                                Дизайн
+                            </button>
+                        </li>
+                        <li>
+                            <button class="filters-button" type="button">
+                                Маркетинг
+                            </button>
+                        </li>
+                    </ul>             
+                    <ul class="projekt-list">
+                        <li>
+                            <a href="" class="projekt-link"></a>
+                                <img src="./image/portfolio/tehnohriak.jpg" width="370" alt="foto of people">
+                                    <h2 class="projekt-titl">Технокряк</h2>
+                                        <p class="project-text">Веб-сайт</p>
+                        </li>
+                        <li>
+                            <a href="projekt-link"  ></a>
+                                <img src="./image/portfolio/poster.jpg" width="370" alt="foto men play in basketball">
+                                    <h2 class="projekt-titl" >Постер New Orlean vs Golden Star</h2>
+                                        <p class="project-text">Дизайн</p>
+                        </li>
+                        <li>
+                            <a href="projekt-link" ></a>
+                                <img src="./image/portfolio/restaurant.jpg" width="370" alt="image fish ">
+                                    <h2 class="projekt-titl">Ресторан Seafood</h2>
+                                        <p class="project-text">Приложение</p>
+                        </li>
+                        <li>
+                            <a href="projekt-link" ></a>
+                                <img src="./image/portfolio/headphouns.jpg" width="370" alt="headphouns">
+                                    <h2 class="projekt-titl">Проект Prime</h2>
+                                        <p class="project-text">Маркетинг</p>
+                        </li>
+                        <li>
+                            <a href="projekt-link"></a>
+                                <img src="./image/portfolio/boxes.jpg" width="370" alt="two boxes">
+                                    <h2 class="projekt-titl">Проект Boxes</h2>
+                                        <p class="project-text">Приложение</p>
+                        </li>
+                        <li>
+                            <a href="projekt-link"></a>
+                                <img src="./image/portfolio/monitor.jpg" width="370" alt="monitor">
+                                    <h2 class="projekt-titl">Inspiration has no Borders</h2>
+                                        <p class="project-text">Веб-сайт</p>
+                        </li>
+                        <li>
+                            <a href="projekt-link"></a>
+                                <img src="./image/portfolio/magazine.jpg" width="370" alt="magazine with photos">
+                                    <h2 class="projekt-titl">Издание Limited Edition</h2>
+                                        <p class="project-text">Дизайн</p>
+                        </li>
+                        <li>
+                            <a href="projekt-link"></a>
+                                <img src="./image/portfolio/lab.jpg" width="370" alt="label">
+                                    <h2 class="projekt-titl">Проект LAB</h2>
+                                        <p class="project-text">Маркетинг</p>
+                        </li>
+                        <li>
+                            <a href="projekt-link"></a>
+                                <img src="./image/portfolio/laptop.jpg" width="370" alt="laptop">
+                                    <h2 class="projekt-titl">Growing Business</h2>
+                                        <p class="project-text">Приложение</p>
+                        </li>
+                    </ul>
+                </div>
         </section>
     </main>
 
     <!--footer-->
     <footer class="footer">
-    
+        <div class="container">
         <a class="logo" href="">
             Web <span class="logo-White">Studio </span>
         </a>
