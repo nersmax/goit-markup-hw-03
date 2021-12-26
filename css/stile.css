@@ -386,6 +386,9 @@ address {
 .filters-title {
   display: none;
 }
+.filters-container {
+  margin-bottom: 50px;
+}
 .filters-list {
   display: flex;
   justify-content: center;
@@ -422,23 +425,35 @@ address {
   list-style-type: none;
 }
 .projekt-item {
+  margin-top: 30px;
   width: 370px;
   margin-right: 30px;
 }
 .projekt-item:nth-child(3n) {
   margin-right: 0px;
 }
-
+.projekt-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-top-style: none;
+}
 .projekt-titl {
   font-weight: var(--font-weight-bold);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-left: 24px;
+  margin-bottom: 4px;
+  width: 322px;
   color: var(--headers-dark-color);
 }
 .project-text {
   font-size: 16px;
-  line-height: 1.19;
+  line-height: 1.9;
+  margin-left: 24px;
+  width: 322px;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
