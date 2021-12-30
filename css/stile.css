@@ -40,7 +40,6 @@ img {
 
 .logo {
   display: inline-block;
-  text-decoration: none;
   font-family: Raleway;
   font-weight: var(--font-weight-bold);
   font-size: 26px;
@@ -51,7 +50,6 @@ img {
   color: var(--first-backlight-color);
 }
 .logo-dark {
-  text-decoration: none;
   font-family: Raleway;
   font-weight: var(--font-weight-bold);
   font-size: 26px;
@@ -63,9 +61,6 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.header {
-  border-bottom-style: 1px solid #ececec;
-}
 .header-contacts:hover {
   color: var(--first-backlight-color);
 }
@@ -74,7 +69,6 @@ img {
 }
 
 .header-contacts {
-  text-decoration: none;
   font-weight: var(--font-weight-medium);
   font-size: 14px;
   line-height: 1.14;
@@ -111,7 +105,6 @@ img {
   color: var(--first-backlight-color);
 }
 .nav-link {
-  text-decoration: none;
   font-weight: var(--font-weight-medium);
   font-size: 14px;
   line-height: 1.14;
@@ -121,7 +114,6 @@ img {
 
 .nav-active {
   color: var(--first-backlight-color);
-  text-decoration: none;
 }
 .hero {
   background-color: var(--background-color);
@@ -157,13 +149,10 @@ img {
   padding-left: 32px;
   padding-right: 32px;
 }
-.hero-button:focus {
-  background: var(--btn-fokus);
-}
+.hero-button:focus,
 .hero-button:hover {
   background: var(--btn-fokus);
 }
-
 .conditions {
   padding-bottom: 0px;
 }
@@ -197,13 +186,9 @@ img {
   color: var(--headers-dark-color);
 }
 .conditions-text {
-  font-size: 14px;
   line-height: 1.7;
-  padding-bottom: 0px;
   width: 270px;
   margin-top: 10px;
-  margin-right: auto;
-  margin-left: auto;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
@@ -223,7 +208,6 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   background: #f5f4fa;
-
   color: var(--headers-dark-color);
 }
 .about-list .about-imj + .about-imj {
@@ -281,7 +265,6 @@ img {
 }
 .footer-logo {
   display: inline-block;
-  text-decoration: none;
   font-family: Raleway;
   font-weight: var(--font-weight-bold);
   font-size: 26px;
@@ -291,7 +274,6 @@ img {
   color: var(--first-backlight-color);
 }
 .logo-White {
-  text-decoration: none;
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -300,8 +282,6 @@ img {
 }
 .address {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -318,35 +298,22 @@ img {
   padding-bottom: 60px;
   color: var(--text-white-color);
 }
-.footer-contacts:hover,
-.footer-contacts:focus {
+
+.footer-link:hover,
+.footer-link:focus {
   color: var(--second-backlight-color);
 }
-.footer-mail:hover,
-.footer-mail:focus {
-  color: var(--second-backlight-color);
-}
-.footer-mail {
+.footer-link {
   display: inline-block;
-  text-decoration: none;
-  font-style: normal;
   color: #ffffff99;
 }
-.footer-contacts {
-  display: inline-block;
-  text-decoration: none;
-  font-style: normal;
-  margin-bottom: 0px;
-  color: #ffffff99;
-}
+
 .footer-address:hover,
 .footer-address:focus {
   color: var(--first-backlight-color);
 }
 .footer-address {
   display: inline-block;
-  text-decoration: none;
-  font-style: normal;
   color: var(--text-white-color);
 }
 /* portfolio */
@@ -365,8 +332,7 @@ img {
 .filters-list {
   display: flex;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 50px;
 }
 .filters-list .filters-item + .filters-item {
   margin-left: 8px;
@@ -382,10 +348,7 @@ img {
   border: none;
   padding: 6px 22px;
 }
-.filters-button:focus {
-  background: var(--first-backlight-color);
-  color: var(--second-backlight-color);
-}
+.filters-button:focus,
 .filters-button:hover {
   background: var(--first-backlight-color);
   color: var(--second-backlight-color);
@@ -408,6 +371,8 @@ img {
 }
 .projekt-container {
   padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
   padding-bottom: 20px;
   background: #ffffff;
   border: 1px solid #eeeeee;
@@ -418,16 +383,12 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-left: 24px;
   margin-bottom: 4px;
-  width: 322px;
   color: var(--headers-dark-color);
 }
 .project-text {
   font-size: 16px;
   line-height: 1.9;
-  margin-left: 24px;
-  width: 322px;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
