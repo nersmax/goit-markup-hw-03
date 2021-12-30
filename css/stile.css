@@ -290,7 +290,6 @@ img {
 .adress-item {
   margin-top: 9px;
 }
-
 .footer {
   background-color: var(--background-color);
   line-height: 1.19;
@@ -298,7 +297,6 @@ img {
   padding-bottom: 60px;
   color: var(--text-white-color);
 }
-
 .footer-link:hover,
 .footer-link:focus {
   color: var(--second-backlight-color);
@@ -307,7 +305,6 @@ img {
   display: inline-block;
   color: #ffffff99;
 }
-
 .footer-address:hover,
 .footer-address:focus {
   color: var(--first-backlight-color);
@@ -324,15 +321,9 @@ img {
   line-height: 1.6;
   letter-spacing: 0.03em;
 }
-.filters-title {
-}
-.filters-container {
-  margin-bottom: 50px;
-}
 .filters-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
 }
 .filters-list .filters-item + .filters-item {
   margin-left: 8px;
