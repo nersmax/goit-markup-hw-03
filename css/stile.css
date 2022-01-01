@@ -31,11 +31,12 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
+.header {
+  border-bottom: solid 1px #ececec;
+}
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: solid 1px #ececec;
 }
 
 .logo {
@@ -270,7 +271,7 @@ img {
   font-size: 26px;
   line-height: 1.19;
   padding-top: 0px;
-  margin-bottom: 11px;
+  margin-bottom: 20px;
   color: var(--first-backlight-color);
 }
 .logo-White {
@@ -289,6 +290,9 @@ img {
 }
 .adress-item {
   margin-top: 9px;
+}
+.adress-list :first-child {
+  margin-top: 0px;
 }
 .footer {
   background-color: var(--background-color);
